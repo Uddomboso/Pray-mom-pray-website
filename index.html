@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="x-icon" href="logo2.jpg">
+ 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-jQ8BgS/Xu2prFfC3QpK/6q6K2rR8UvjZfSc7+Z2/3OHgY6GA+GDeOgHqD16K2nUwomHDfyO21cC4BUWf9MsC8Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <title>Pray, Mom Pray</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="video-container">
+    <video id="background-video" autoplay loop muted>
+      <source src="video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <header>
+      <h2></h2>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <h1>Vision:</h1>
+      <p>To raise Mothers who will impact their child's generations through prayers.</p>
+      <p class="focus-paragraph">
+        <strong>Our Focus:</strong> Children are God’s gifts to us and our heritage.
+        Thus, we have
+      </p>
+      <p class="focus-paragraph">
+        to raise them up appropriately using God’s Word as our template.
+      </p>
+    </div>
+  </div>
+   
+  <div class="other">
+    <div class="about-us-image">
+      <a href="media/service banner.jpg" target="_blank">
+        <img src="media/service banner.jpg" alt="Services">
+      </a>
+    </div>
+
+    <div class="countdown-container">
+      <h2>Next Pray, Mom Pray event in </h2>
+      <div id="countdown" class="countdown">Loading...</div>
+    </div>
+    
+    <div class="box" id="services">
+      <div class="services-container">
+        <div class="service-item">
+          <a href="media/service1.jpg" target="_blank">
+            <img src="media/service1.jpg" alt="Service 1">
+          </a>
+          <div class="service-description">PMP 2017</div>
+        </div>
+        <div class="service-item">
+          <a href="media/service2.jpg" target="_blank">
+            <img src="media/service2.jpg" alt="Service 2">
+          </a>
+          <div class="service-description">PMP 2024</div>
+        </div>
+        <div class="service-item">
+          <a href="media/service5.jpg" target="_blank">
+            <img src="media/service5.jpg" alt="Service 5">
+          </a>
+          <div class="service-description">PM 2021</div>
+        </div>
+        <div class="service-item">
+          <a href="media/service6.jpg" target="_blank">
+            <img src="media/service6.jpg" alt="Service 6">
+          </a>
+          <div class="service-description">PMP 2018</div>
+        </div>
+        <div class="service-item">
+          <a href="media/service4.jpg" target="_blank">
+            <img src="media/service4.jpg" alt="Service 4">
+          </a>
+          <div class="service-description">PMP 2019</div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="about-us-image">
+      <a href="media/aboutbanner.jpg" target="_blank">
+        <img src="media/aboutbanner.jpg" alt="About Us banner">
+      </a>
+    </div>
+    
+    <div class="box" id="about">
+      <div class="person">
+        <img src="media/PE.jpg" alt="Pastor Eve" style="height: 30%; width: 20%;">
+        <div class="PstEve">Pastor Eve Mboso</div>
+      </div>
+      <div class="about-us-text">
+        <p>
+          Pray, Mom Pray was birthed in 2015 by Dr. Eve Mboso, she is a mother
+          and Pastor at the SpringHouse Church, Calabar, Cross River state,
+          Nigeria. PMP, for 6 years, has played host to women of God with event
+          themes inspired by the Holy Spirit.
+        </p>
+        <p>
+          PMP is an Interdenominational Christian Ministry aimed at convening
+          mothers periodically to pray and to speak the Word into the lives of
+          their children. It is also a platform where women are empowered
+          through workshops and seminars towards entrepreneurial development.
+        </p>
+      </div>
+    </div>
+
+
+  
+    <div class="about-us-image">
+      <a href="media/contactbanner.jpg" target="_blank">
+        <img src="media/contactbanner.jpg" alt="Contact banner">
+      </a>
+    </div>
+    
+    <div class="box" id="Contact">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3274.3724273519083!2d8.347748502288377!3d5.009520327601042!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105d7d3965338a55%3A0xe31906f5e1bc1375!2sSpringHouse%20Church!5e0!3m2!1sen!2s!4v1739923155085!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <form action="submit.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+    
+        <button type="submit">Send Message</button>
+    </form>
+    
+      
+      <div class="social-media">
+        <p>Follow us:</p>
+        <div class="social-icons">
+          <a
+            href="https://www.facebook.com/praymumpray/"
+            target="_blank"
+            class="social-icon facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://x.com/thespringhouse?lang=en"
+            target="_blank"
+            class="social-icon twitter"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/praymompray/"
+            target="_blank"
+            class="social-icon instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footer">
+    <p>&copy; 2025 Pray, Mom Pray. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
